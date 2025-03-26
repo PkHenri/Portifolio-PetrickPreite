@@ -1,0 +1,147 @@
+body {
+    background-color: #222; /* Cor de fundo escura */
+}
+
+.menu-bar{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    width: 35%;
+    text-align: center;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu-link:hover{
+    color: cyan;
+    text-shadow: 1px 1px 1px black;
+}
+
+.card-me {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column; /* Tornar vertical */
+    align-items: flex-start; /* Alinhar itens ao início */
+    padding: 20px;
+    margin: 20px; /* Ficar à esquerda com alguma margem */
+    max-width: 300px; /* Largura máxima reduzida */
+}
+
+.card-me-social a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card-me-social a:hover {
+    background-color: #777;
+}
+
+.card-me-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Adicionar margem na parte inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card-me-text h1 {
+    color: cyan;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card-me-text p {
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.card-me-text footer {
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    position: static;
+    width: 100%;
+}
+
+.card-me-text footer a {
+    margin: 0 5px;
+}
+
+.card-me-text footer img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    display: none;
+}
+
+.card-me-phrase {
+    margin: 20px;
+    font-style: italic;
+    color: cyan;
+    max-width: 600px;
+    word-wrap: break-word; /* Fazer o texto quebrar em várias linhas */
+    white-space: normal; /* Permitir que o texto quebre */
+    line-height: 1.4; /* Ajustar altura da linha para melhor legibilidade */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adicionar uma sombra sutil ao texto */
+    border-left: 3px solid cyan; /* Adicionar uma borda à esquerda */
+    padding-left: 10px; /* Adicionar algum preenchimento para separar o texto da borda */
+}
+
+.about-me {
+    margin: 20px;
+    color: #ddd;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: row; /* Organizar itens horizontalmente */
+    align-items: flex-start; /* Alinhar itens ao topo */
+    margin-top: 120px; /* Manter a margem superior */
+}
+
+.about-me-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Adicionar algum espaço entre card-me e os outros elementos */
+}
+
+
