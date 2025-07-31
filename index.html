@@ -1,53 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/bootstrap.bundle.min.js" defer></script>
-    <script src="js/script.js" defer></script>
-    <title>Portifólio Petrick Preite</title>
-</head>
-<body>
-    <div class="menu-bar">
-        <a href="" class="menu-link">Sobre-mim</a>
-        <a href="" class="menu-link">Projetos</a>
-        <a href="" class="menu-link">Habilidades</a>
-    </div>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petrick | Portfólio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="text-center p-5">
+      <h1>Olá, eu sou o Petrick</h1>
+      <p>Desenvolvedor em formação, Full-Stack</p>
+      <p class="frase-impacto">Transformando conhecimento em soluções reais.</p>
+    </header>
 
-    <div class="about-me-content">
-        <div class="card-me">
-            <div class="card-me-img">
-                <img src="img/me.jpg" alt="Petrick Preite">
-            </div>
-            <div class="card-me-text">
-                <h1>Petrick Preite</h1>
-                <p>Desenvolvedor Web</p>
-                <p>Petrickhenri@gmail.com</p>
-                <div class="card-me-social">
-                    <a href="https://www.linkedin.com/in/petrickpreite/" target="_blank">
-                        <img src="img/outros/linkedin.png" alt="LinkedIn">
-                    </a>
-                    <a href="https://github.com/PkHenri" target="_blank">
-                        <img src="img/outros/github.png" alt="GitHub">
-                    </a>
-                </div>
-            </div>
+    <section id="sobre-mim" class="container my-5">
+      <h2 class="text-center mb-4">Sobre Mim</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            Sou Petrick Henrique, estudante de Técnico em Informática na ETEC de
+            Franco da Rocha. Tenho conhecimentos em lógica de programação, Java,
+            HTML, CSS, JavaScript e banco de dados, e busco constantemente me
+            aprimorar.
+          </p>
         </div>
-
-        <div class="about-me-right">
-            <div class="card-me-phrase">
-                <h2 id="phrase">"Transformando ideias em realidade através do código."</h2>
-            </div>
-
-            <div class="about-me">
-                <p id="about-me-text">
-                    Sou um desenvolvedor web apaixonado por criar soluções inovadoras e funcionais. Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento front-end e back-end para entregar a melhor experiência possível aos usuários.
-                </p>
-            </div>
+        <div class="col-md-6">
+          <p>
+            Sou focado, curioso e determinado a evoluir na área de tecnologia. Gosto de pensar no futuro com responsabilidade e planejar cada passo da minha carreira. Meu objetivo é desenvolver soluções úteis e de qualidade, contribuindo com projetos que fazem a diferença.
+          </p>
         </div>
-    </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</body>
+      </div>
+    </section>
+
+    <section id="projetos" class="container my-5">
+      <h2 class="text-center mb-4">Projetos</h2>
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card glass-card">
+            <img
+              src="assets/img/projeto1.png"
+              class="card-img-top"
+              alt="Projeto 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nome do Projeto</h5>
+              <p class="card-text">Descrição curta do projeto.</p>
+              <button class="btnVerMais-Card">Ver Mais</button>
+            </div>
+          </div>
+        </div>
+        <!-- fim Card 1 -->
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card glass-card">
+            <img
+              src="assets/img/projeto1.png"
+              class="card-img-top"
+              alt="Projeto 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nome do Projeto</h5>
+              <p class="card-text">Descrição curta do projeto.</p>
+              <button class="btnVerMais-Card">Ver Mais</button>
+            </div>
+          </div>
+        </div>
+        <!--fim Card 2 -->
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card glass-card">
+            <img
+              src="assets/img/projeto3.png"
+              class="card-img-top"
+              alt="Projeto 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">ID Album Selector</h5>
+              <p class="card-text">
+                Este projeto é uma aplicação web que serve como um portal para
+                fãs da banda Imagine Dragons. Aqui, você pode encontrar os
+                álbuns da banda.
+              </p>
+              <button class="btnVerMais-Card">Ver Mais</button>
+            </div>
+          </div>
+        </div>
+        <!--fim Card 3 -->
+      </div>
+    </section>
+
+    <section id="habilidades" class="container my-5">
+      <h2 class="text-center mb-4">Habilidades</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>Java</li>
+            <li>Banco de Dados</li>
+            <li>Lógica de Programação</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>Git e GitHub</li>
+            <li>Bootstrap</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="text-center p-3">
+      <p>&copy; 2025 Petrick Manoel</p>
+    </footer>
+  </body>
 </html>
